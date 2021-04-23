@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowItemList">
+
+    <TextView
+        android:id="@+id/txViStoreName"
+        android:layout_width="187sp"
+        android:layout_height="92sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginRight="8sp"
+        android:text="@string/ItemlistTitle"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/itemListView"
+        android:layout_width="410sp"
+        android:layout_height="381sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginRight="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/btnProceedItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginRight="8sp"
+        android:text="@string/ItemlistButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemListView" />
+    <Button
+        android:id="@+id/btnEditAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8sp"
+        android:layout_marginRight="8sp"
+        android:text="@string/EditAccBtn"
+        android:textSize="12sp"
+        android:onClick="editAcc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginRight="8sp"
+        android:text="@string/LogOutBtn"
+        android:onClick="logOut"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditAcc" />
+
+    <Button
+        android:id="@+id/btnInviteFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8sp"
+        android:layout_marginLeft="8sp"
+        android:text="@string/InviteFriendsBtn"
+        android:textSize="12sp"
+        android:onClick="inviteFriends"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOrderHis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginTop="8sp"
+        android:text="@string/OrderHisBtn"
+        android:onClick="showOrderHistory"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInviteFriends" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="78sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="42sp"
+        android:layout_marginLeft="42sp"
+        android:layout_marginTop="8sp"
+        android:text="@string/ItemName"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOrderHis" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="74sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="54sp"
+        android:layout_marginLeft="54sp"
+        android:layout_marginTop="8sp"
+        android:text="@string/ItemPrice"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="29sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="28sp"
+        android:layout_marginLeft="28sp"
+        android:layout_marginTop="8sp"
+        android:text="@string/ItemUnit"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="52sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="8sp"
+        android:text="@string/ItemAmount"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogout" />
+
+
+</android.support.constraint.ConstraintLayout>

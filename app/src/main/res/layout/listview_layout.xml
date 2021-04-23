@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowItemList">
+
+
+    <ImageView
+        android:id="@+id/imgItem"
+        android:layout_width="33sp"
+        android:layout_height="34sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="145sp"
+        android:layout_height="34sp"
+        android:layout_alignBottom="@+id/imgItem"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7sp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginBottom="2sp"
+        android:layout_toEndOf="@+id/imgItem"
+        android:layout_toRightOf="@+id/imgItem"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="34sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3sp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="7sp"
+        android:layout_marginRight="7sp"
+        android:layout_toStartOf="@+id/itemUnit"
+        android:layout_toLeftOf="@+id/itemUnit"
+        android:layout_toEndOf="@+id/itemName"
+        android:layout_toRightOf="@+id/itemName"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/itemUnit"
+        android:layout_width="45sp"
+        android:layout_height="34sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="8sp"
+        android:layout_marginRight="8sp"
+        android:layout_toStartOf="@+id/eTAmount"
+        android:layout_toLeftOf="@+id/eTAmount"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/eTAmount"
+        android:layout_width="77sp"
+        android:layout_height="34sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="1sp"
+        android:layout_marginRight="1sp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+</RelativeLayout>

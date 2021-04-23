@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tVItemName"
+        android:layout_width="141dp"
+        android:layout_height="28sp"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tVItemPrice"
+        android:layout_width="74dp"
+        android:layout_height="28sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tVItemName"
+        android:text="TextView"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tVItemAmount"
+        android:layout_width="74dp"
+        android:layout_height="28sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tVItemPrice"
+        android:text="TextView"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvItemSub"
+        android:layout_width="74dp"
+        android:layout_height="28sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tVItemAmount"
+        android:text="TextView"
+        android:textSize="16sp"/>
+</RelativeLayout>

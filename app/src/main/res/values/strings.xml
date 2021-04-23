@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Grocery App</string>
+    <string name="txtPanel">Welcome to Grocery Shopping App</string>
+    <string name="txtCreAcc">Create account. New to NKM?</string>
+    <string name="txtLogin">Login. Already a customer?</string>
+    <string name="txtAcc">User name</string>
+    <string name="txtPass">Password</string>
+    <string name="txtRePass">Retype Password</string>
+    <string name="btnSignin">Sign in</string>
+    <string name="btnCreate">Create</string>
+    <string name="txtRegister">Please register new account!</string>
+    <string name="btnRegister">Register</string>
+    <string name="RegisterFirstName">First name</string>
+    <string name="RegisterLastName">Last name</string>
+    <string name="btnEditAcc">Edit account</string>
+    <string name="txtEditAccInf">Edit account info</string>
+    <string name="btnEditAccInf">Edit</string>
+    <string name="txtPostalCodeTitle">Find the store</string>
+    <string name="txtChooseNearStoreTitle">Please choose the store near your location!</string>
+    <string name="txtPostalCodeIntro">Please enter your address or postal code to proceed</string>
+    <string name="txtPostalCodeIntroHint">E.g: \'19800 Lougheed Hwy\' or \'V3Y2W1\'</string>
+    <string name="btnPostalCode">Continue</string>
+    <string name="EditAccEmailInvited">Number of emails you invited: </string>
+    <string name="ItemlistTitle">Grocery item list of the store </string>
+    <string name="ItemlistButton">Proceed</string>
+    <string name="ItemName">Item name</string>
+    <string name="ItemDes">Description</string>
+    <string name="ItemPrice">Price</string>
+    <string name="ItemUnit">Unit</string>
+    <string name="ItemAmount">Amount</string>
+    <string name="DeliTitle">How will you receive your order?</string>
+    <string name="DeliPickup">Pick up</string>
+    <string name="DeliCurAdd">Deliver to my address</string>
+    <string name="DeliNewAdd">Deliver to new address:</string>
+    <string name="DeliAddress">Address</string>
+    <string name="DeliPostalCode">Postal code</string>
+    <string name="DeliPhone">Phone number</string>
+    <string name="DeliNextButton">Next</string>
+    <string name="PaymentTitle">Payment method</string>
+    <string name="PaymentCash">Cash</string>
+    <string name="PaymentCreditCard">Credit card: </string>
+    <string name="PayCreName">Name on card</string>
+    <string name="PayCreNum">Credit card number</string>
+    <string name="PayCreCVV">CVV</string>
+    <string name="PayCreDate">Expired date</string>
+    <string name="PayProceed">Proceed payment</string>
+    <string name="PaySaveCreCar">Save credit card for next payment!</string>
+    <string name="PayUseDiscount">Use 10% discount!</string>
+    <string name="OrderComTitle">Completed, here is the details of your order: </string>
+    <string name="OrderComSubTotal">Subtotal</string>
+    <string name="OrderComBtnNewOrder">Make new order</string>
+    <string name="EditAccBtn">Edit \n account</string>
+    <string name="LogOutBtn">Log \n out</string>
+    <string name="InviteFriendsBtn">Invite \n friends</string>
+    <string name="OrderHisBtn">Order \n history</string>
+    <string name="OrerHisRaDis">Discount</string>
+    <string name="OrderHisRaDeli">Delivery</string>
+    <string name="InviteTitle">Invite friends and get 10% off next order</string>
+    <string name="txtReferralCode">Your referral code: </string>
+    <string name="eTInviteEmail">Your friend email to invite</string>
+    <string name="btnInvite">Invite</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
